@@ -1,10 +1,18 @@
 {
   "web-query": {
-      "message": "web-query",
-      "description": "demo"
+    "message": "web-query",
+    "description": "demo"
   },
   "key1": {
     "message": "en key1",
     "description": "en key1"
+  },
+  "key3": {
+    "message": "en key3",
+    "description": "en key3"
+  },
+  "key4": {
+    "message": "en key4",
+    "description": "en key4"
   }
 }
