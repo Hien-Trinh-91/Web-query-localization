@@ -2,5 +2,9 @@
   "web-query": {
       "message": "web-query",
       "description": "demo"
+  },
+  "key1": {
+    "message": "",
+    "description": "en key1"
   }
 }

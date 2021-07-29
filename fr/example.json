@@ -1,6 +1,10 @@
 {
   "web-query": {
-      "message": "web-query",
-      "description": "demo"
+    "message": "web-query",
+    "description": "demo"
+  },
+  "key1": {
+    "message": "",
+    "description": "fr key1"
   }
 }
