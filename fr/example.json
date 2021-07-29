@@ -6,5 +6,13 @@
   "key1": {
     "message": "fr key1",
     "description": "fr key1"
+  },
+  "key3": {
+    "message": "fr key1",
+    "description": "fr key1"
+  },
+  "key4": {
+    "message": "fr key1",
+    "description": "fr key1"
   }
 }
