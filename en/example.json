@@ -1,93 +1,270 @@
 {
-  "language": "Language",
-  "mapControl": {
-    "zoomOut": "Zoom out",
-    "zoomIn": "Zoom in",
-    "pickOnMap": "Pick on the map",
-    "myLocation": "Get my location"
+  "language": {
+    "message": "Language",
+    "description": "Language"
   },
-  "modeSwitcher": {
-    "map": "MAP",
-    "list": "LIST"
+  "mapControl.zoomOut": {
+    "message": "Zoom out",
+    "description": "Zoom out"
   },
-  "noResult": {
-    "noResultFound": "No result found!",
-    "backToHome": "Back to home",
-    "noStopFound": "No stop found"
+  "mapControl.zoomIn": {
+    "message": "Zoom in",
+    "description": "Zoom in"
   },
-  "searchForm": {
-    "yourAddress": "Your Address",
-    "grade": "Grade",
-    "allGrade": "All grades",
-    "program": "Program",
-    "allProgram": "All programs",
-    "reset": "Reset",
-    "go": "Go",
-    "addressIsRequired": "The address is required",
-    "addressMinLengthIs_3": "The address min length is 3",
-    "canNotFindAddress": "Can not find address",
-    "pleaseFillValidAddress": "Please fill valid address",
-    "selectAtLeastOneValue": "Please select 1 suggested Google address",
-    "noAddressFound": "No address found"
+  "mapControl.pickOnMap": {
+    "message": "Pick on the map",
+    "description": "Pick on the map"
   },
-  "landingPage": {
-    "copyRight": "Copyright © 2017 Education Logistics, Missoula, MT - All Rights Reserved"
+  "mapControl.myLocation": {
+    "message": "Get my location",
+    "description": "Get my location"
   },
-  "instructionPage": {
-    "welcome": "Welcome to"
+  "modeSwitcher.map": {
+    "message": "MAP",
+    "description": "MAP"
   },
-  "breadcrumb": {
-    "home": "Home",
-    "schoolResults": "School Results",
-    "schoolDetails": "School Details",
-    "stopList": "Stop List"
+  "modeSwitcher.list": {
+    "message": "LIST",
+    "description": "LIST"
   },
-  "schoolList": {
-    "code": "School Code",
-    "grade": "Grade",
-    "program": "Program",
-    "result": "Result",
-    "details": "Details",
-    "eligibility": "Eligibility",
-    "eligible": "Eligible",
-    "ineligible": "Ineligible"
+  "noResult.noResultFound": {
+    "message": "No result found!",
+    "description": "No result found!"
   },
-  "schoolDetail": {
-    "stopNearMe": "Show stops near me",
-    "n/a": "N/A",
-    "schoolCode": "School Code",
-    "grade": "Grades",
-    "program": "Programs",
-    "country": "Country",
-    "district": "District",
-    "location": "Location",
-    "schoolType": "School Type",
-    "schoolLevel": "School Level"
+  "noResult.backToHome": {
+    "message": "Back to home",
+    "description": "Back to home"
   },
-  "stopList": {
-    "fromSchool": "FROM SCHOOL",
-    "from": "FROM",
-    "toSchool": "TO SCHOOL",
-    "to": "TO",
-    "stopTime": "Stop Time",
-    "busNumber": "Bus Number",
-    "bellTime": "Route Number",
-    "stopOrder": "Stop Order"
+  "noResult.noStopFound": {
+    "message": "No stop found",
+    "description": "No stop found"
   },
-  "error": {
-    "noResultsFound": "No results found",
-    "loadGeoFail": "Load Geo Config failed",
-    "loadProgramFail": "Load All Program failed",
-    "loadGradeFail": "Load All Grades failed",
-    "loadEligibleSchools": "Load Eligible Schools failed",
-    "loadschoolDetail": "Load School Detail failed",
-    "stopsList": "Load Stops List failed",
-    "internetConnectionFailed": "No Internet Connection"
+  "searchForm.yourAddress": {
+    "message": "Your Address",
+    "description": "Your Address"
   },
-  "getPosition": "Cannot get current location of your device",
-  "instruction": {
-    "title": "Instruction",
-    "content": "\nClients use our routing and scheduling system and in that system there is a lot of data.\n\nThere are quite a bit of people who need this information that do not belong to the transportation department such as parents needing to know which school their children attend, real estate agents might need attendance boundaries and stop information so on and so forth.\n\nWebQuery is sold to help alleviate the number of phone calls made to Transportation Department (benefit) WebQuery can Answer the question, I live at xyz address with x grader what school would they attend? In WebQuery one can input an address, choose from a list of addresses click the link and it will tell you the school name walk distance drive distance and if the child is eligible for transportation. (advantage) Can choose/ find the closest stop to their home (advantage) By giving community members this access, WebQuery can eliminate a call to transportation for this information making community members self-sufficient. (Benefit) Gives a map representation of closest stops Some clients will put this map on their main webpage, some clients do not deploy this map to everyone but just to district staff All based off of how much information they should be putting out to the public Not your job to convince school district what their policy should be. WebQuery has two kinds of customers Those that must register for bus Those that assign every eligible kid These districts are where WebQuery is usually published Other information Toronto’s WebQuery is a good one to look at for instructions on how to use WebQuery Not sure which fields can be customized. He takes these needs one at a time. Sometimes we will charge for customization but this is a one off There is also a program field, problem is that it’s abbreviated using Edulog lingo. This can be difficult for parents to use. WebQuery does not have to make put stop info available to the public. It can be school of attendance and eligibility only.",
-    "close": "Close"
+  "searchForm.grade": {
+    "message": "Grade",
+    "description": "Grade"
+  },
+  "searchForm.allGrade": {
+    "message": "All grades",
+    "description": "All grades"
+  },
+  "searchForm.program": {
+    "message": "Program",
+    "description": "Program"
+  },
+  "searchForm.allProgram": {
+    "message": "All programs",
+    "description": "All programs"
+  },
+  "searchForm.reset": {
+    "message": "Reset",
+    "description": "Reset"
+  },
+  "searchForm.go": {
+    "message": "Go",
+    "description": "Go"
+  },
+  "searchForm.addressIsRequired": {
+    "message": "The address is required",
+    "description": "The address is required"
+  },
+  "searchForm.addressMinLengthIs_3": {
+    "message": "The address min length is 3",
+    "description": "The address min length is 3"
+  },
+  "searchForm.canNotFindAddress": {
+    "message": "Can not find address",
+    "description": "Can not find address"
+  },
+  "searchForm.pleaseFillValidAddress": {
+    "message": "Please fill valid address",
+    "description": "Please fill valid address"
+  },
+  "searchForm.selectAtLeastOneValue": {
+    "message": "Please select 1 suggested Google address",
+    "description": "Please select 1 suggested Google address"
+  },
+  "searchForm.noAddressFound": {
+    "message": "No address found",
+    "description": "No address found"
+  },
+  "landingPage.copyRight": {
+    "message": "Copyright © 2017 Education Logistics, Missoula, MT - All Rights Reserved",
+    "description": "Copyright © 2017 Education Logistics, Missoula, MT - All Rights Reserved"
+  },
+  "instructionPage.welcome": {
+    "message": "Welcome to",
+    "description": "Welcome to"
+  },
+  "breadcrumb.home": {
+    "message": "Home",
+    "description": "Home"
+  },
+  "breadcrumb.schoolResults": {
+    "message": "School Results",
+    "description": "School Results"
+  },
+  "breadcrumb.schoolDetails": {
+    "message": "School Details",
+    "description": "School Details"
+  },
+  "breadcrumb.stopList": {
+    "message": "Stop List",
+    "description": "Stop List"
+  },
+  "schoolList.code": {
+    "message": "School Code",
+    "description": "School Code"
+  },
+  "schoolList.grade": {
+    "message": "Grade",
+    "description": "Grade"
+  },
+  "schoolList.program": {
+    "message": "Program",
+    "description": "Program"
+  },
+  "schoolList.result": {
+    "message": "Result",
+    "description": "Result"
+  },
+  "schoolList.details": {
+    "message": "Details",
+    "description": "Details"
+  },
+  "schoolList.eligibility": {
+    "message": "Eligibility",
+    "description": "Eligibility"
+  },
+  "schoolList.eligible": {
+    "message": "Eligible",
+    "description": "Eligible"
+  },
+  "schoolList.ineligible": {
+    "message": "Ineligible",
+    "description": "Ineligible"
+  },
+  "schoolDetail.stopNearMe": {
+    "message": "Show stops near me",
+    "description": "Show stops near me"
+  },
+  "schoolDetail.n/a": {
+    "message": "N/A",
+    "description": "N/A"
+  },
+  "schoolDetail.schoolCode": {
+    "message": "School Code",
+    "description": "School Code"
+  },
+  "schoolDetail.grade": {
+    "message": "Grades",
+    "description": "Grades"
+  },
+  "schoolDetail.program": {
+    "message": "Programs",
+    "description": "Programs"
+  },
+  "schoolDetail.country": {
+    "message": "Country",
+    "description": "Country"
+  },
+  "schoolDetail.district": {
+    "message": "District",
+    "description": "District"
+  },
+  "schoolDetail.location": {
+    "message": "Location",
+    "description": "Location"
+  },
+  "schoolDetail.schoolType": {
+    "message": "School Type",
+    "description": "School Type"
+  },
+  "schoolDetail.schoolLevel": {
+    "message": "School Level",
+    "description": "School Level"
+  },
+  "stopList.fromSchool": {
+    "message": "FROM SCHOOL",
+    "description": "FROM SCHOOL"
+  },
+  "stopList.from": {
+    "message": "FROM",
+    "description": "FROM"
+  },
+  "stopList.toSchool": {
+    "message": "TO SCHOOL",
+    "description": "TO SCHOOL"
+  },
+  "stopList.to": {
+    "message": "TO",
+    "description": "TO"
+  },
+  "stopList.stopTime": {
+    "message": "Stop Time",
+    "description": "Stop Time"
+  },
+  "stopList.busNumber": {
+    "message": "Bus Number",
+    "description": "Bus Number"
+  },
+  "stopList.bellTime": {
+    "message": "Route Number",
+    "description": "Route Number"
+  },
+  "stopList.stopOrder": {
+    "message": "Stop Order",
+    "description": "Stop Order"
+  },
+  "error.noResultsFound": {
+    "message": "No results found",
+    "description": "No results found"
+  },
+  "error.loadGeoFail": {
+    "message": "Load Geo Config failed",
+    "description": "Load Geo Config failed"
+  },
+  "error.loadProgramFail": {
+    "message": "Load All Program failed",
+    "description": "Load All Program failed"
+  },
+  "error.loadGradeFail": {
+    "message": "Load All Grades failed",
+    "description": "Load All Grades failed"
+  },
+  "error.loadEligibleSchools": {
+    "message": "Load Eligible Schools failed",
+    "description": "Load Eligible Schools failed"
+  },
+  "error.loadschoolDetail": {
+    "message": "Load School Detail failed",
+    "description": "Load School Detail failed"
+  },
+  "error.stopsList": {
+    "message": "Load Stops List failed",
+    "description": "Load Stops List failed"
+  },
+  "error.internetConnectionFailed": {
+    "message": "No Internet Connection",
+    "description": "No Internet Connection"
+  },
+  "getPosition": {
+    "message": "Cannot get current location of your device",
+    "description": "Cannot get current location of your device"
+  },
+  "instruction.title": {
+    "message": "Instruction",
+    "description": "Instruction"
+  },
+  "instruction.content": {
+    "message": "\nClients use our routing and scheduling system and in that system there is a lot of data.\n\nThere are quite a bit of people who need this information that do not belong to the transportation department such as parents needing to know which school their children attend, real estate agents might need attendance boundaries and stop information so on and so forth.\n\nWebQuery is sold to help alleviate the number of phone calls made to Transportation Department (benefit) WebQuery can Answer the question, I live at xyz address with x grader what school would they attend? In WebQuery one can input an address, choose from a list of addresses click the link and it will tell you the school name walk distance drive distance and if the child is eligible for transportation. (advantage) Can choose/ find the closest stop to their home (advantage) By giving community members this access, WebQuery can eliminate a call to transportation for this information making community members self-sufficient. (Benefit) Gives a map representation of closest stops Some clients will put this map on their main webpage, some clients do not deploy this map to everyone but just to district staff All based off of how much information they should be putting out to the public Not your job to convince school district what their policy should be. WebQuery has two kinds of customers Those that must register for bus Those that assign every eligible kid These districts are where WebQuery is usually published Other information Toronto’s WebQuery is a good one to look at for instructions on how to use WebQuery Not sure which fields can be customized. He takes these needs one at a time. Sometimes we will charge for customization but this is a one off There is also a program field, problem is that it’s abbreviated using Edulog lingo. This can be difficult for parents to use. WebQuery does not have to make put stop info available to the public. It can be school of attendance and eligibility only.",
+    "description": "\nClients use our routing and scheduling system and in that system there is a lot of data.\n\nThere are quite a bit of people who need this information that do not belong to the transportation department such as parents needing to know which school their children attend, real estate agents might need attendance boundaries and stop information so on and so forth.\n\nWebQuery is sold to help alleviate the number of phone calls made to Transportation Department (benefit) WebQuery can Answer the question, I live at xyz address with x grader what school would they attend? In WebQuery one can input an address, choose from a list of addresses click the link and it will tell you the school name walk distance drive distance and if the child is eligible for transportation. (advantage) Can choose/ find the closest stop to their home (advantage) By giving community members this access, WebQuery can eliminate a call to transportation for this information making community members self-sufficient. (Benefit) Gives a map representation of closest stops Some clients will put this map on their main webpage, some clients do not deploy this map to everyone but just to district staff All based off of how much information they should be putting out to the public Not your job to convince school district what their policy should be. WebQuery has two kinds of customers Those that must register for bus Those that assign every eligible kid These districts are where WebQuery is usually published Other information Toronto’s WebQuery is a good one to look at for instructions on how to use WebQuery Not sure which fields can be customized. He takes these needs one at a time. Sometimes we will charge for customization but this is a one off There is also a program field, problem is that it’s abbreviated using Edulog lingo. This can be difficult for parents to use. WebQuery does not have to make put stop info available to the public. It can be school of attendance and eligibility only."
+  },
+  "instruction.close": {
+    "message": "Close",
+    "description": "Close"
   }
 }
